@@ -33,11 +33,12 @@
             background-color: #ddd;
             color: black;
         }
-        .main-container:hover {
+        .main-container {
             display: flex;
             justify-content: space-between;
             background-color: white;
             text-decoration: none;
+           
             
         }
         .restaurant-list {
@@ -74,7 +75,7 @@
             background-color: #e55b00;
         }
         .order-summary {
-            width: 25%;
+            width: 75%;
             background-color: white;
             padding: 20px;
             border-radius: 8px;
@@ -132,26 +133,26 @@
 </head>
 <body>
     <header>
-    <h1>AM SEVICES</h1>
-</header>
+    <h1>Restaurants</h1>
+    </header>
 
 <div class="nav-bar">
-    <a href="https://www.swiggy.com/" target="_blank">Home</a>
-    <a href="https://www.google.com/maps/search/restaurants+near+by+me/@22.2890241,73.3607408,14z/data=!3m1!4b1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Restaurants</a>
-    <a href="#">Deals</a>
-    <a href="#">Contact</a>
+    <a href="https://www.swiggy.com/">Home</a>
+    <a href="https://www.google.com/maps/search/restaurants+near+by+me/@22.2890241,73.3607408,14z/data=!3m1!4b1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D">Restaurants</a>
+    <a href="https://www.swiggy.com/search?query=deals">Deals</a>
+    <a href="new.html">Contact</a>
 </div>
 
 <div class="main-container">
 
     <div class="restaurant-list">
-        <h2>Popular Restaurants</h2>
+        <h2>Popular Restaurants Menu</h2>
         <div class="restaurant-item">
             <div style="display: flex; align-items: center;">
                 <img src="idly.jpeg" alt="Restaurant 1">
                 <div class="restaurant-info">
-                    <h3>Restaurant 1</h3>
-                    <p>Delicious Indian food</p>
+                    <h3>Idly</h3>
+                    <p>from south special restaurant</p>
                     <p>Rating: ⭐⭐</p>
                     <button class="order-button"><a href="https://www.swiggy.com/search?query=idly"> Order Now </a></button>
                 </div>
@@ -162,10 +163,10 @@
             <div style="display: flex; align-items: center;">
                 <img src="dosa.jpeg" alt="Restaurant 2">
                 <div class="restaurant-info">
-                    <h3>Restaurant 2</h3>
-                    <p>Healthy & Fresh Foods</p>
+                    <h3>Dosa</h3>
+                    <p>from ganapathi restaurant</p>
                     <p>Rating: ⭐⭐⭐</p>
-                    <button class="order-button"><a href="https://www.swiggy.com/"> Order Now </a></button>
+                    <button class="order-button"><a href="https://www.swiggy.com/search?query=dosa"> Order Now </a></button>
                 </div>
             </div>
         </div>
@@ -173,41 +174,30 @@
             <div style="display: flex; align-items: center;">
                 <img src="poori.jpeg" alt="Restaurant 3">
                 <div class="restaurant-info">
-                    <h3>Restaurant 3</h3>
-                    <p>south style poori</p>
+                    <h3>Poori</h3>
+                    <p>from south style restaurant</p>
                     <p>Rating: ⭐⭐⭐⭐</p>
-                    <button class="order-button"><a href="https://www.swiggy.com/"> Order Now </a></button>
+                    <button class="order-button"><a href="https://www.swiggy.com/search?query=Poori"> Order Now </a></button>
                 </div>
             </div>
         </div>
+    </div>
 
     </div>
 <div class="order-summary">
         <h3>Order Summary</h3>
-        <p><strong>Items:</strong> 4</p>
-        <p><strong>Total:</strong> 600.00</p>
+        <p><strong>Items:</strong> 4 </p>
+        <p><strong>Total:</strong> ₹600.00</p>
         <button class="order-button">Proceed to pay</button>
 </div>
-
 </div>
-
- <form action="" method="post">
+<form action="" method="post">
     <h2>Feedback Form</h2>
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name" placeholder="Enter your name" required>
     <label for="feedback">Your Feedback:</label>
     <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback here" required></textarea>
     <button type="submit">Submit</button>l
-</form><br>
-<header>
-    <h1>Welcome to My Project</h1>
-</header>
-    <h2>About This Project</h2>
-    <p>This is a simple HTML project </p><br>
-    <h2>Things I Learned</h2>
-    <ul>
-        <li>How to create a basic HTML structure</li>
-        <li>How to use tags like <strong>header</strong>, <strong>section</strong>, and <strong>ul</strong></li>
-        <li>How to style elements using CSS</li>
-    </ul> <br>
+</form>
+</body>
 </html>
